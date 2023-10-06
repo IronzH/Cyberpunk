@@ -53,7 +53,7 @@ header{
     padding: 70px;
     background: linear-gradient(135deg, transparent 52px, #F8F200 0) top left,
     linear-gradient(-45deg, transparent 52px, #F8F200 0) bottom right;
-    background-size: 100% 50%;
+    background-size: 100% 51%;
     background-repeat: no-repeat;
 }
 .header-info>h1{
@@ -73,4 +73,61 @@ padding-bottom: 25px;
     padding: 19px 50px;
     background: #000;
     cursor: pointer;
+}
+h2{
+    padding-top: 70px;
+    color: #000;
+    font-family: "Archangelsk";
+    font-size: 62px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+.text{
+    color: #777;
+    font-family: "Roboto";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 188.9%;
+    max-width: 952px;
+    margin-bottom: 70px;
+}
+.text>span{
+    color: #52BEDC;
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 85px;
+}
+.item1{
+    width: 460px;
+}
+.photo1{
+    background: url('../img/c035da59c21a6ae999fdb8660cc9a4ce.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 196px;
+    margin-bottom: 32px;
+    position: relative;
+    -webkit-clip-path: polygon(8% 0, 80% 0%, 100% 0, 100% 80%, 92% 100%, 20% 100%, 0 100%, 0% 20%);
+    clip-path: polygon(8% 0, 80% 0%, 100% 0, 100% 80%, 92% 100%, 20% 100%, 0 100%, 0% 20%);
+}
+.photo1:last-child{
+    margin-bottom: 0;
+    background: url('../img/photo2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.item2{
+    width: 778px;
+}
+.photo2{
+    background: url('../img/photo3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 424px;
+    -webkit-clip-path: polygon(8% 0, 80% 0%, 100% 0, 100% 80%, 92% 100%, 20% 100%, 0 100%, 0% 20%);
+    clip-path: polygon(8% 0, 80% 0%, 100% 0, 100% 80%, 92% 100%, 20% 100%, 0 100%, 0% 20%);
+
 }
