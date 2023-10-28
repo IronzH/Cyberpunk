@@ -189,3 +189,59 @@ h2{
     font-size: 18px;
     font-weight: 700;
 }
+.kupit{
+    display: flex;
+}
+.kupit-bg{
+    flex-basis: 45%;
+    background: url(../img/Untitled-1\ 1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.kupit-info{
+    flex-basis: 55%;
+    background: #000;
+    padding: 70px 0;
+    padding-left: 32px;
+}
+.kupit-info>h2{
+    color: #FFF;
+    font-family: 'Archangelsk';
+    font-size: 62px;
+    font-weight: 400;
+    padding-bottom: 25px;
+    min-width: 488px;
+}
+.kupit-info>span{
+    color: #52BEDC;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+}
+.kupit-info>ul{
+    padding-top: 21px;
+}
+.kupit-info>ul>li{
+    display: flex;
+    align-items: center;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 15px;
+}
+.kupit-info>ul>li:last-child{
+    padding-bottom: 70px;
+}
+.kupit-info>ul>li>img{
+    margin-right: 10px;
+}
+.pc{
+    padding-left: 35px;
+    padding-right: 80px;
+    padding-bottom: 55px;
+}
+.stadia{
+    padding-left: 35px;
+    padding-right: 80px;
+}
