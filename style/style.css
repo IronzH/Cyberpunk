@@ -155,7 +155,8 @@ h2{
     font-family: 'Archangelsk';
     font-size: 62px;
     font-weight: 400;
-    width: 560px;
+    max-width: 560px;
+    padding: 0;
 }
 .yellow-box2>p{
     color: #000;
@@ -214,7 +215,7 @@ h2{
 }
 .kupit-info>span{
     color: #52BEDC;
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-size: 24px;
     font-weight: 700;
 }
@@ -225,7 +226,7 @@ h2{
     display: flex;
     align-items: center;
     color: #FFF;
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-size: 18px;
     font-weight: 400;
     padding-bottom: 15px;
@@ -237,11 +238,30 @@ h2{
     margin-right: 10px;
 }
 .pc{
-    padding-left: 35px;
-    padding-right: 80px;
-    padding-bottom: 55px;
+    margin-top: 25px;
+    margin-right: 80px;
+    margin-bottom: 55px;
 }
 .stadia{
-    padding-left: 35px;
-    padding-right: 80px;
+    margin-right: 80px;
+}
+.cyber{
+    margin: 0 32px 0 320px;
+}
+.white-box{
+    display: inline-flex;
+    align-items: center;
+}
+.cd-projekt-red{
+    margin-right: 391px;
+}
+.license{
+    color: #000;
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 400;
+    margin-right: 32px;
+}
+.license:last-child{
+    margin-right: 321px;
 }
